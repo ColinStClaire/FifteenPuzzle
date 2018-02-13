@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FB588A2032842000C64F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB58892032842000C64F0C /* AppDelegate.swift */; };
+		28FB588C2032842000C64F0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB588B2032842000C64F0C /* ViewController.swift */; };
+		28FB588F2032842000C64F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FB588D2032842000C64F0C /* Main.storyboard */; };
+		28FB58912032842000C64F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FB58902032842000C64F0C /* Assets.xcassets */; };
+		28FB58942032842000C64F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FB58922032842000C64F0C /* LaunchScreen.storyboard */; };
+		28FB589F2032842000C64F0C /* FifteenPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB589E2032842000C64F0C /* FifteenPuzzleTests.swift */; };
+		28FB58AA2032842000C64F0C /* FifteenPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB58A92032842000C64F0C /* FifteenPuzzleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FB589B2032842000C64F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FB587E2032842000C64F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FB58852032842000C64F0C;
+			remoteInfo = FifteenPuzzle;
+		};
+		28FB58A62032842000C64F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FB587E2032842000C64F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FB58852032842000C64F0C;
+			remoteInfo = FifteenPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28FB58862032842000C64F0C /* FifteenPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifteenPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FB58892032842000C64F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28FB588B2032842000C64F0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28FB588E2032842000C64F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FB58902032842000C64F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28FB58932032842000C64F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28FB58952032842000C64F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FB589A2032842000C64F0C /* FifteenPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FifteenPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FB589E2032842000C64F0C /* FifteenPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifteenPuzzleTests.swift; sourceTree = "<group>"; };
+		28FB58A02032842000C64F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FB58A52032842000C64F0C /* FifteenPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FifteenPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FB58A92032842000C64F0C /* FifteenPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifteenPuzzleUITests.swift; sourceTree = "<group>"; };
+		28FB58AB2032842000C64F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FB58832032842000C64F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FB58972032842000C64F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FB58A22032842000C64F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FB587D2032842000C64F0C = {
+			isa = PBXGroup;
+			children = (
+				28FB58882032842000C64F0C /* FifteenPuzzle */,
+				28FB589D2032842000C64F0C /* FifteenPuzzleTests */,
+				28FB58A82032842000C64F0C /* FifteenPuzzleUITests */,
+				28FB58872032842000C64F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FB58872032842000C64F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FB58862032842000C64F0C /* FifteenPuzzle.app */,
+				28FB589A2032842000C64F0C /* FifteenPuzzleTests.xctest */,
+				28FB58A52032842000C64F0C /* FifteenPuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FB58882032842000C64F0C /* FifteenPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				28FB58892032842000C64F0C /* AppDelegate.swift */,
+				28FB588B2032842000C64F0C /* ViewController.swift */,
+				28FB588D2032842000C64F0C /* Main.storyboard */,
+				28FB58902032842000C64F0C /* Assets.xcassets */,
+				28FB58922032842000C64F0C /* LaunchScreen.storyboard */,
+				28FB58952032842000C64F0C /* Info.plist */,
+			);
+			path = FifteenPuzzle;
+			sourceTree = "<group>";
+		};
+		28FB589D2032842000C64F0C /* FifteenPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				28FB589E2032842000C64F0C /* FifteenPuzzleTests.swift */,
+				28FB58A02032842000C64F0C /* Info.plist */,
+			);
+			path = FifteenPuzzleTests;
+			sourceTree = "<group>";
+		};
+		28FB58A82032842000C64F0C /* FifteenPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28FB58A92032842000C64F0C /* FifteenPuzzleUITests.swift */,
+				28FB58AB2032842000C64F0C /* Info.plist */,
+			);
+			path = FifteenPuzzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FB58852032842000C64F0C /* FifteenPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FB58AE2032842000C64F0C /* Build configuration list for PBXNativeTarget "FifteenPuzzle" */;
+			buildPhases = (
+				28FB58822032842000C64F0C /* Sources */,
+				28FB58832032842000C64F0C /* Frameworks */,
+				28FB58842032842000C64F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FifteenPuzzle;
+			productName = FifteenPuzzle;
+			productReference = 28FB58862032842000C64F0C /* FifteenPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FB58992032842000C64F0C /* FifteenPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FB58B12032842000C64F0C /* Build configuration list for PBXNativeTarget "FifteenPuzzleTests" */;
+			buildPhases = (
+				28FB58962032842000C64F0C /* Sources */,
+				28FB58972032842000C64F0C /* Frameworks */,
+				28FB58982032842000C64F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FB589C2032842000C64F0C /* PBXTargetDependency */,
+			);
+			name = FifteenPuzzleTests;
+			productName = FifteenPuzzleTests;
+			productReference = 28FB589A2032842000C64F0C /* FifteenPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28FB58A42032842000C64F0C /* FifteenPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FB58B42032842000C64F0C /* Build configuration list for PBXNativeTarget "FifteenPuzzleUITests" */;
+			buildPhases = (
+				28FB58A12032842000C64F0C /* Sources */,
+				28FB58A22032842000C64F0C /* Frameworks */,
+				28FB58A32032842000C64F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FB58A72032842000C64F0C /* PBXTargetDependency */,
+			);
+			name = FifteenPuzzleUITests;
+			productName = FifteenPuzzleUITests;
+			productReference = 28FB58A52032842000C64F0C /* FifteenPuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FB587E2032842000C64F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Colin;
+				TargetAttributes = {
+					28FB58852032842000C64F0C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					28FB58992032842000C64F0C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28FB58852032842000C64F0C;
+					};
+					28FB58A42032842000C64F0C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28FB58852032842000C64F0C;
+					};
+				};
+			};
+			buildConfigurationList = 28FB58812032842000C64F0C /* Build configuration list for PBXProject "FifteenPuzzle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28FB587D2032842000C64F0C;
+			productRefGroup = 28FB58872032842000C64F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FB58852032842000C64F0C /* FifteenPuzzle */,
+				28FB58992032842000C64F0C /* FifteenPuzzleTests */,
+				28FB58A42032842000C64F0C /* FifteenPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FB58842032842000C64F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FB58942032842000C64F0C /* LaunchScreen.storyboard in Resources */,
+				28FB58912032842000C64F0C /* Assets.xcassets in Resources */,
+				28FB588F2032842000C64F0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FB58982032842000C64F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FB58A32032842000C64F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FB58822032842000C64F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FB588C2032842000C64F0C /* ViewController.swift in Sources */,
+				28FB588A2032842000C64F0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FB58962032842000C64F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FB589F2032842000C64F0C /* FifteenPuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FB58A12032842000C64F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FB58AA2032842000C64F0C /* FifteenPuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FB589C2032842000C64F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FB58852032842000C64F0C /* FifteenPuzzle */;
+			targetProxy = 28FB589B2032842000C64F0C /* PBXContainerItemProxy */;
+		};
+		28FB58A72032842000C64F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FB58852032842000C64F0C /* FifteenPuzzle */;
+			targetProxy = 28FB58A62032842000C64F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28FB588D2032842000C64F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FB588E2032842000C64F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28FB58922032842000C64F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FB58932032842000C64F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FB58AC2032842000C64F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28FB58AD2032842000C64F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FB58AF2032842000C64F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FifteenPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FifteenPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FB58B02032842000C64F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FifteenPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FifteenPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28FB58B22032842000C64F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FifteenPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FifteenPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FifteenPuzzle.app/FifteenPuzzle";
+			};
+			name = Debug;
+		};
+		28FB58B32032842000C64F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FifteenPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FifteenPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FifteenPuzzle.app/FifteenPuzzle";
+			};
+			name = Release;
+		};
+		28FB58B52032842000C64F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FifteenPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FifteenPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FifteenPuzzle;
+			};
+			name = Debug;
+		};
+		28FB58B62032842000C64F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FifteenPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FifteenPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FifteenPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FB58812032842000C64F0C /* Build configuration list for PBXProject "FifteenPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FB58AC2032842000C64F0C /* Debug */,
+				28FB58AD2032842000C64F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FB58AE2032842000C64F0C /* Build configuration list for PBXNativeTarget "FifteenPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FB58AF2032842000C64F0C /* Debug */,
+				28FB58B02032842000C64F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FB58B12032842000C64F0C /* Build configuration list for PBXNativeTarget "FifteenPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FB58B22032842000C64F0C /* Debug */,
+				28FB58B32032842000C64F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FB58B42032842000C64F0C /* Build configuration list for PBXNativeTarget "FifteenPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FB58B52032842000C64F0C /* Debug */,
+				28FB58B62032842000C64F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FB587E2032842000C64F0C /* Project object */;
+}
